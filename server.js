@@ -15,7 +15,7 @@ const Container = require('./container.js');
 require('./middlewares/auth');
 const { optionsMariaDB, optionsSQLite3 } = require('./options/config.js');
 
-const PORT = 8080||args._[0] 
+const PORT = 8080
 const app = express();
 // const PORT =  8050;
 
